@@ -2,13 +2,16 @@ const express = require('express');
 
 const app = express();
 
- const ejs = require('ejs');
+const ejs = require('ejs');
 
- const path = require('path');
- 
- const expressLayout = require('express-ejs-layouts');
+const path = require('path');
+
+const expressLayout = require('express-ejs-layouts');
 
 const PORT = process.env.PORT || 3000;
+
+//Assets
+app.use(express.static('public'));
 
 app.get('/', (rq ,res)=>{
     // res.send('Hello from server');

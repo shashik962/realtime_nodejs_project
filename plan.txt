@@ -8,12 +8,18 @@
 
 3. Create Express server - Create a server.js file
 
-4. Create Home page using HTML and CSS
+4. Git setup and first commit
+
+5. Install Laravel Mix.
+
+6. Install tailwind css
+
+6. Create Home page using HTML and CSS
    - include tailwind CSS
    
-5. Create Cart page
+6. Create Cart page
    - order summary section
    - empty cart section
-6. Create Order controller and link it in server.js
-7. Create Orders view with table for customer and admin
-8. Create Orders single
+7. Create Order controller and link it in server.js
+8. Create Orders view with table for customer and admin
+9. Create Orders single
