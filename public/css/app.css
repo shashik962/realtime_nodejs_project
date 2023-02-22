@@ -22,14 +22,15 @@ section.hero {
   background: #F8F8F8;
 }
 
+/*
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-}
-
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  */
 .price {
   color: grey;
   font-size: 22px;
@@ -49,4 +50,60 @@ section.hero {
 
 .card button:hover {
   opacity: 0.7;
+}
+
+.order_now {
+  border-radius: 11px;
+  background: #f8f8f8;
+  font-family: fantasy;
+  color: #ed7c33;
+  border-color: rgba(254, 95, 30, 0.6705882353);
+}
+
+.order_now {
+  transition: #FE5F1E;
+}
+.order_now:hover {
+  background-color: #b23301;
+  color: white;
+}
+
+.img-cart {
+  display: block;
+  max-width: 50px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table tr td {
+  border: 1px solid #FFFFFF;
+}
+
+table tr th {
+  background: #eee;
+}
+
+.panel-shadow {
+  box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+}
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
 }
